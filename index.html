@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variação de Cores - Aumentar Quantidade</title>
+    <link rel="stylesheet" href="style.css"> <!-- Ligação do CSS externo -->
+</head>
+<body>
+    <h1>Variação de Cores - Aumentar Quantidade</h1>
+    
+    <div class="svg-container">
+        <!-- O SVG será injetado e multiplicado aqui -->
+        <div id="svgDisplay"></div>
+    </div>
+
+    <div class="controls">
+        <label for="color1">Cor 1: </label>
+        <input type="color" id="color1" value="#399B54">
+        
+        <label for="color2">Cor 2: </label>
+        <input type="color" id="color2" value="#297ADF">
+        
+        <label for="color3">Cor 3: </label>
+        <input type="color" id="color3" value="#E34619">
+        
+        <label for="color4">Cor 4: </label>
+        <input type="color" id="color4" value="#FCBE2D">
+        
+        <label for="color5">Cor 5: </label>
+        <input type="color" id="color5" value="#FF6B35">
+        
+        <label for="color6">Cor 6: </label>
+        <input type="color" id="color6" value="#FFAFCA">
+        
+        <label for="color7">Cor Preta: </label>
+        <input type="color" id="color7" value="#000000">
+
+        <label id="quantity-label" for="quantity">Quantidade de Formas: 1</label>
+        <input type="range" id="quantity" min="1" max="10" value="1">
+    </div>
+
+    <script src="script.js"></script> <!-- Ligação do JavaScript externo -->
+</body>
+</html>
